@@ -856,6 +856,7 @@
     )
   )
 
+
   (junction (at 231.14 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 09442049-ea29-4408-8e6a-7e4efffad287)
   )
@@ -873,9 +874,6 @@
   )
   (junction (at 169.545 76.835) (diameter 0) (color 0 0 0 0)
     (uuid 425f1725-d506-4efa-a6bd-8da80d2b8f67)
-  )
-  (junction (at 90.805 47.625) (diameter 0) (color 0 0 0 0)
-    (uuid 4efaa3f3-06c0-4e70-b737-c5d620938b4f)
   )
   (junction (at 146.685 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 53ced0e2-e720-4075-beb4-5b33ad301aae)
@@ -1030,10 +1028,6 @@
   (wire (pts (xy 197.485 129.54) (xy 181.61 129.54))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1df8853d-b810-4ef2-83e2-9fe99635e80b)
-  )
-  (wire (pts (xy 90.805 43.18) (xy 90.805 47.625))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1fe9ae72-c2f3-46c7-95ca-07c2f2cbccc4)
   )
   (wire (pts (xy 33.655 137.16) (xy 33.655 130.175))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2418,22 +2412,6 @@
     (pin "1" (uuid f1935ef5-3afb-4c1e-9359-50a026cd3884))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 90.805 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid f020a6f4-caee-4c19-8fba-99f271eb778b)
-    (property "Reference" "#FLG0103" (id 0) (at 90.805 41.275 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (id 1) (at 90.805 38.1 0))
-    (property "Footprint" "" (id 2) (at 90.805 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 90.805 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 60b5d537-455d-4544-baec-1ac11649bb2e))
-  )
-
   (symbol (lib_id "Device:R_US") (at 178.435 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fa333cec-ec0b-417b-b952-845f7a01acb3)
@@ -2561,9 +2539,6 @@
     )
     (path "/aead24fe-26ad-4393-bbc1-0cba4aa52cdd"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/f020a6f4-caee-4c19-8fba-99f271eb778b"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/e30ba7ec-fa95-461f-beca-d2c08d6124f6"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
