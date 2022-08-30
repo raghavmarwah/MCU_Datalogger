@@ -395,7 +395,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3fc65f83-6813-4081-8997-f61c5577eaf9)
   )
-  (hierarchical_label "SCK" (shape passive) (at 125.095 86.995 0)
+  (hierarchical_label "SCL" (shape passive) (at 125.095 86.995 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4b8bdd72-6fe7-439c-8a98-458f43938bd2)
   )
